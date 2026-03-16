@@ -1,0 +1,28 @@
+﻿# AWS credentials - NEVER push these
+credentials/
+*.pem
+*.key
+credentials.txt
+*.env
+.env*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Docker
+*.tar
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
