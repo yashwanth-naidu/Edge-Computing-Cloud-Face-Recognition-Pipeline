@@ -26,3 +26,7 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# Model weights - too large for git
+*.pt
+*.pth
